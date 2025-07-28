@@ -1,0 +1,174 @@
+body {
+    background-color: #f5f6f8;
+    font-family: "Roboto", sans-serif;
+}
+.contact{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.part1 {
+    position: relative;
+    width: 100%;
+}
+.part1 h1 {
+    color: #031123;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: -15px;
+}
+.part1 h1 span {
+    font-weight: 700;
+}
+.part1 p {
+    font-size: 16px;
+    color: #898a8b;
+}
+.form{
+    width: 100%;
+    position: relative;
+    background-color: white;
+    box-shadow: 22px 14px 58px -1px rgba(0,0,0,0.53);
+    border-radius: 22px 22px 22px 22px;
+    
+}
+
+form {
+    margin-top: 30px;
+}
+input {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+input ::placeholder {
+    color: #9a9b9d;
+}
+select {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+textarea {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 150px;
+}
+label {
+    margin-left: 10%;
+    color: #898a8b;
+}
+i {
+    font-size: 50px;
+    color: #0371ec;
+}
+.icon {
+    display: flex;
+}
+.icon_def  .word{
+    font-weight: 500;
+    font-size: 20px;
+    color: #031123;
+}
+.icon_def p {
+    margin-top: -5px;
+    
+}
+.icon_def {
+    margin-left: 10px;
+}
+button {
+    width: 34%;
+    display: flex;
+    background-color: #0371ec;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding: 5px;
+    padding-bottom: 0;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    margin-left: 5rem;
+    margin-top: -1.5rem;
+}
+button p {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    
+}
+.arrow_btn i {
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+}
+ @media screen and (max-width: 700px) {
+    .contact {
+        display: block;
+        text-align: center;
+    }
+    .icon {
+    display: block;
+    }
+    .part1 h1 {
+        font-size: 30px;
+    }
+    .part1 p {
+        font-size: 12px;
+    }
+    i {
+        font-size: 30px;
+    }
+    .icon_def  .word {
+        font-size: 10px;
+    }
+    .form {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    label {
+        margin-left: -5px;
+    }
+    form {
+        margin-top: 30px;
+    }
+    input {
+        width: 80%;
+        margin-left: -5px;
+    }
+    select {
+        margin-left: 0px;
+    }
+    textarea {
+        margin-left: 0px;
+    }
+    button {
+        width: 50%;
+        height: fit-content;
+    }
+    button p {
+        font-size: 14px;
+    }
+} 
